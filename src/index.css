@@ -7,8 +7,12 @@
 }
 
 /* Header-section */
+.Navbar-main-sec{
+  background: black;
+  box-shadow: 0 4px 8px rgba(141, 137, 137, 0.5);
+}
 
-button.Logo-btn.btn.btn-primary {
+ button.Logo-btn.btn.btn-primary {
     background-color: black;
     border: 1px solid silver;
     padding: 10px 35px;
@@ -27,9 +31,10 @@ nav.mb-3.Navbar-main-sec.navbar.navbar-light {
 }
 
 /* Make hamburger lines white */
-/* .navbar-light .navbar-toggler-icon {
+.navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-} */
+}
+
 
 div#offcanvasNavbar {
   width: 70%;
@@ -76,11 +81,11 @@ button.Logo-btn-2.btn.btn-primary:hover {
 
 .main-navbarand {
   margin-bottom: 10%;
-}
+} 
 
 /* Banner-section */
 .Banner-section {
-  background-image: url("src/assets/banner-project-1.png");
+  background-image: url("public/banner-project-1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,7 +131,7 @@ nav.mb-3.Navbar-main-sec.navbar.navbar-light {
 
 /* Section1 */
 .section-ourproject {
-  background-image: url("src/assets/white_bg.jpg");
+  background-image: url("public/background-project-2.png");
   background-position: center;
   background-repeat: repeat;
   padding-bottom: 50px;
@@ -166,7 +171,7 @@ nav.mb-3.Navbar-main-sec.navbar.navbar-light {
 
 /* formsection-part */
 .section-frompart {
-  background-image: url("src/assets/background-project-3.jpg");
+  background-image: url("public/background-project-3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -315,6 +320,11 @@ button.Logo-btn-3.btn.btn-primary {
   width: 50%;
   padding: 12px 5px;
 }
+button.Logo-btn-3.btn.btn-primary:hover{
+  color: black;
+  background: white;
+}
+
 
 .btn-from {
   text-align: center;
@@ -354,7 +364,7 @@ section.Testmonial-part {
 /* footer-part */
 .footer-part{
   background: black;
-  padding: 100px 80px;
+  padding-top: 60px;
 }
 .logo-footer img{
   width: 65%;
@@ -375,6 +385,10 @@ i.fa-brands.fa-linkedin-in {
 .row-main-sec2 {
     color: white;
      padding: 35px;
+     font-family: "DM Sans", sans-serif;
+}
+.row-main-sec2 ul{
+  padding-left: 0;
 }
 .row-main-sec2 ul li{
   list-style: none;
@@ -383,7 +397,12 @@ i.fa-brands.fa-linkedin-in {
 .row-main-sec3 {
     color: white;
      padding: 35px;
+     font-family: "DM Sans", sans-serif;
 }
+.row-main-sec3 ul{
+  padding-left: 0;
+}
+
 .row-main-sec3 ul li{
   list-style: none;
       line-height: 45px;
@@ -391,6 +410,10 @@ i.fa-brands.fa-linkedin-in {
 .row-main-sec4 {
     color: white;
      padding: 35px;
+     font-family: "DM Sans", sans-serif;
+}
+.row-main-sec4 ul{
+  padding-left: 0;
 }
 .row-main-sec4 ul li{
   list-style: none;
@@ -408,7 +431,9 @@ i.fa-brands.fa-linkedin-in {
 .last{
   text-align: center;
   color: white;
-  padding-top: 40px;
+    padding-top: 18px;
+    padding-bottom: 3px;
+ 
 }
 .logo-footer-icons {
   display: flex;

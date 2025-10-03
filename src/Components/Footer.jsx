@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+ import logo from "../assets/logo.png";
 
 function Footer() {
     return (
@@ -12,7 +13,7 @@ function Footer() {
                             <Col md={3}>
                                 <div className="row-main-sec1">
                                     <div className="logo-footer">
-                                        <img src="src/assets/logo.png" alt="ok" />
+                                        <img src={logo} alt="ok" />
                                     </div>
                                     <div className="logo-footer-para">
                                         <p> India’s trusted name in premium aluminium doors and windows, blending world-class German engineering with refined Indian craftsmanship.</p>

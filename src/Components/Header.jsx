@@ -4,19 +4,24 @@
   import Navbar from 'react-bootstrap/Navbar';
   import NavDropdown from 'react-bootstrap/NavDropdown';
   import Offcanvas from 'react-bootstrap/Offcanvas';
+  import logo from "../assets/logo.png";
+  import side from '../assets/side.png';
 
 function Header(){
     return(
         <>
         
       {[false, ].map((expand) => (
-            <Navbar expand={false} className="mb-3 Navbar-main-sec">
+            // <Navbar expand={false} className="mb-3 Navbar-main-sec">
+              <Navbar key={expand} expand={false} sticky="top" className="Navbar-main-sec">
       <Container>
         {/* Toggle button on the left */}
-        <Navbar.Toggle  aria-controls="offcanvasNavbar"   style={{ borderColor: 'white', color: 'white' }}  />
+   <Navbar.Toggle aria-controls="offcanvasNavbar" className="border-0 bg-transparent p-0">
+  <img src={side} alt="menu" style={{ width: "40px", cursor: "pointer" }} />
+</Navbar.Toggle>
+
         <div className="img-center">
-            <img src="src/assets/logo.png" alt="ok" />
-        </div>
+            <img src={logo} alt="ok" />        </div>
 
         {/* Logo/brand on the left */}
         <Navbar.Brand href="#" className="ms-2">
