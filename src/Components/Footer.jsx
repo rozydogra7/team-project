@@ -10,7 +10,7 @@ function Footer() {
                 <Container>
                     <div className="main-row-footer">
                         <Row>
-                            <Col md={3}>
+                            <Col md={6} sm={6} lg={3} col={6}>
                                 <div className="row-main-sec1">
                                     <div className="logo-footer">
                                         <img src={logo} alt="ok" />
@@ -27,7 +27,7 @@ function Footer() {
                                 </div>
                             </Col>
 
-                            <Col md={3}>
+                            <Col md={6} sm={6}  lg={3} col={6}>
                                 <div className="row-main-sec2">
                                     <h3>Our Existence</h3>
                                     <ul>
@@ -38,7 +38,7 @@ function Footer() {
                                 </div>
                             </Col>
 
-                            <Col md={3}>
+                            <Col md={6} sm={6}  lg={3} col={6}>
                                 <div className="row-main-sec3">
                                     <h3>Quick Links </h3>
                                     <ul>
@@ -50,7 +50,7 @@ function Footer() {
                                 </div>
                             </Col>
 
-                            <Col md={3}>
+                            <Col md={6} sm={6}  lg={3} col={6}>
                             <div className="row-main-sec4">
                                 <h3>Products</h3>
                                 <ul>

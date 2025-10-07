@@ -15,8 +15,8 @@ function Testmonial(){
                     <h2>Built on Trust. Chosen by Experts</h2>
                 </div>
                 <div className="main-row-testm">
-                    <Row>
-                        <Col md={4}>
+                    <Row className='row-test'>
+                        <Col md={12} lg={4} sm={12}>
                         <div className="main-sec-testM">
                             <div className="test-monial-icon">
                                 <img src={Testicon} alt="ok" />
@@ -24,6 +24,7 @@ function Testmonial(){
                             <div className="test-monial-para">
                                 <p>What sets Schon apart is their understanding of architectural vision. I needed custom aluminium systems for a minimalist villa project, and they executed every detail with precision. Their ability to handle complex briefs while maintaining design integrity is unmatched.</p>
                             </div>
+                            <hr />
                             <div className="test-monial-block">
                                 
                                     <img className="test-img" src={Coursal} alt="ok" />
@@ -37,14 +38,16 @@ function Testmonial(){
                         </Col>
 
 
-                         <Col md={4}>
+                         <Col md={12} lg={4} sm={12}>
                         <div className="main-sec-testM">
                             <div className="test-monial-icon">
                                 <img src={Testicon} alt="ok" />
                             </div>
+                            
                             <div className="test-monial-para">
                                 <p>What sets Schon apart is their understanding of architectural vision. I needed custom aluminium systems for a minimalist villa project, and they executed every detail with precision. Their ability to handle complex briefs while maintaining design integrity is unmatched.</p>
                             </div>
+                             <hr />
                             <div className="test-monial-block">
                                 
                                     <img className="test-img" src={Coursal2} alt="ok" />
@@ -57,14 +60,16 @@ function Testmonial(){
                         </div>
                         </Col>
 
-                          <Col md={4}>
+                          <Col md={12} lg={4} sm={12}>
                         <div className="main-sec-testM">
                             <div className="test-monial-icon">
-                                <img src="src/assets/testo.png" alt="ok" />
+                                <img src={Testicon} alt="ok" />
                             </div>
-                            <div className={Testicon}>
+                          
+                            <div className="test-monial-para">
                                 <p>What sets Schon apart is their understanding of architectural vision. I needed custom aluminium systems for a minimalist villa project, and they executed every detail with precision. Their ability to handle complex briefs while maintaining design integrity is unmatched.</p>
                             </div>
+                               <hr />
                             <div className="test-monial-block">
                                 
                                     <img className="test-img" src={Coursal1} alt="ok" />

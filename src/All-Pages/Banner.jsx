@@ -13,7 +13,7 @@ function Banner(){
                 <div className="main-para-banner">
                     <p>Doors, Windows, Railings & Luxury Glass — Engineered for Inspired Living</p>
                    
-          <Button className='Logo-btn'>Get free Consulatation<span><i class="fa-solid fa-arrow-right"></i></span></Button>   
+          <Button className='Logo-btn-4'>Get free Consulatation<span><i class="fa-solid fa-arrow-right"></i></span></Button>   
                 </div>
             </div>
             </Container>

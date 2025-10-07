@@ -24,55 +24,55 @@ function OurProject(){
                 </div>
                 <div className="main-row-secproject">
                     <Row className='row-main-secproject'>
-                        <Col md={4}>
+                        <Col md={6} lg={4} sm={12}>
                         <div className="main-img-project">
                             <img src={img1} alt="ok" />
                         </div>
                         </Col>
 
-                        <Col md={4}>
+                        <Col md={6} lg={4} sm={12}>
                         <div className="main-img-project">
                             <img src={img2} alt="ok" />
                         </div>
                         </Col>
 
-                        <Col md={4}>
+                        <Col md={6} lg={4} sm={12}>
                         <div className="main-img-project">
                             <img src={img3} alt="ok" />
                         </div>
                         </Col>
 
-                        <Col md={4}>
+                        <Col md={6} lg={4} sm={12}>
                         <div className="main-img-project">
                             <img src={img4} alt="ok" />
                         </div>
                         </Col>
 
-                        <Col md={4}>
+                        <Col md={6} lg={4} sm={12}>
                         <div className="main-img-project">
                             <img src={img5} alt="ok" />
                         </div>
                         </Col>
 
-                        <Col md={4}>
+                        <Col md={6} lg={4} sm={12}>
                         <div className="main-img-project">
                             <img src={img6} alt="ok" />
                         </div>
                         </Col>
 
-                        <Col md={4}>
+                        <Col md={6} lg={4} sm={12}>
                         <div className="main-img-project">
                             <img src={img7} alt="ok" />
                         </div>
                         </Col>
 
-                        <Col md={4}>
+                        <Col md={6} lg={4} sm={12}>
                         <div className="main-img-project">
                             <img src={ img8} alt="ok" />
                         </div>
                         </Col>
 
-                        <Col md={4}>
+                        <Col md={6} lg={4} sm={12}>
                         <div className="main-img-project">
                             <img src={img9} alt="ok" />
                         </div>
