@@ -38,7 +38,7 @@ function Footer() {
                                 </div>
                             </Col>
 
-                            <Col md={6} sm={6}  lg={3} col={6}>
+                            <Col md={6} sm={6}  lg={3} col={6} xs={6}>
                                 <div className="row-main-sec3">
                                     <h3>Quick Links </h3>
                                     <ul>
@@ -50,7 +50,7 @@ function Footer() {
                                 </div>
                             </Col>
 
-                            <Col md={6} sm={6}  lg={3} col={6}>
+                            <Col md={6} sm={6}  lg={3} col={6} xs={6}>
                             <div className="row-main-sec4">
                                 <h3>Products</h3>
                                 <ul>

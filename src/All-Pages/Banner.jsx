@@ -1,5 +1,5 @@
 import Container from 'react-bootstrap/Container';
- import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/Button';
 // section-1******************
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -23,7 +23,7 @@ import { useState } from 'react';
 import Testicon from '../assets/testo.png';
 import Coursal from '../assets/Coursal-img.png'
 import Coursal1 from '../assets/Coursal-img-1.png';
-import Coursal2  from '../assets/Coursal-img-2.png';
+import Coursal2 from '../assets/Coursal-img-2.png';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -33,105 +33,105 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 
 
-function Banner(){
-     const [open, setOpen] = useState(false);
+function Banner() {
+    const [open, setOpen] = useState(false);
     const [open1, setOpen1] = useState(false);
     const [open2, setOpen2] = useState(false);
     const [open3, setOpen3] = useState(false);
     const [open4, setOpen4] = useState(false);
     const [open5, setOpen5] = useState(false);
-    return(
+    return (
         <>
-        <section className="Banner-section">
-            <Container>
-            <div className="main-banner">
-                <div className="main-haeding-banner">
-                    <h2>Our Projects</h2>
-                </div>
-                <div className="main-para-banner">
-                    <p>Doors, Windows, Railings & Luxury Glass — Engineered for Inspired Living</p>
-                   
-          <Button className='Logo-btn-4'>Get free Consulatation<span><i class="fa-solid fa-arrow-right"></i></span></Button>   
-                </div>
-            </div>
-            </Container>
-        </section>
+            <section className="Banner-section">
+                <Container>
+                    <div className="main-banner">
+                        <div className="main-haeding-banner">
+                            <h2>Our Projects</h2>
+                        </div>
+                        <div className="main-para-banner">
+                            <p>Doors, Windows, Railings & Luxury Glass — Engineered for Inspired Living</p>
 
-        {/* section-1 */}
-          <section className='section-ourproject'>
-            <Container>
-                <div className="main-Our-project">
-                    <div className="main-head-project">
-                        <h2>Our Projects</h2>
+                            <Button className='Logo-btn-4'>Get free Consulatation<span><i class="fa-solid fa-arrow-right"></i></span></Button>
+                        </div>
                     </div>
-                </div>
-                <div className="main-row-secproject">
-                    <Row className='row-main-secproject'>
-                        <Col md={6} lg={4} sm={12}>
-                        <div className="main-img-project">
-                            <img src={img1} alt="ok" />
+                </Container>
+            </section>
+
+            {/* section-1 */}
+            <section className='section-ourproject'>
+                <Container>
+                    <div className="main-Our-project">
+                        <div className="main-head-project">
+                            <h2>Our Projects</h2>
                         </div>
-                        </Col>
+                    </div>
+                    <div className="main-row-secproject">
+                        <Row className='row-main-secproject'>
+                            <Col md={6} lg={4} sm={12}>
+                                <div className="main-img-project">
+                                    <img src={img1} alt="ok" />
+                                </div>
+                            </Col>
 
-                        <Col md={6} lg={4} sm={12}>
-                        <div className="main-img-project">
-                            <img src={img2} alt="ok" />
-                        </div>
-                        </Col>
+                            <Col md={6} lg={4} sm={12}>
+                                <div className="main-img-project">
+                                    <img src={img2} alt="ok" />
+                                </div>
+                            </Col>
 
-                        <Col md={6} lg={4} sm={12}>
-                        <div className="main-img-project">
-                            <img src={img3} alt="ok" />
-                        </div>
-                        </Col>
+                            <Col md={6} lg={4} sm={12}>
+                                <div className="main-img-project">
+                                    <img src={img3} alt="ok" />
+                                </div>
+                            </Col>
 
-                        <Col md={6} lg={4} sm={12}>
-                        <div className="main-img-project">
-                            <img src={img4} alt="ok" />
-                        </div>
-                        </Col>
+                            <Col md={6} lg={4} sm={12}>
+                                <div className="main-img-project">
+                                    <img src={img4} alt="ok" />
+                                </div>
+                            </Col>
 
-                        <Col md={6} lg={4} sm={12}>
-                        <div className="main-img-project">
-                            <img src={img5} alt="ok" />
-                        </div>
-                        </Col>
+                            <Col md={6} lg={4} sm={12}>
+                                <div className="main-img-project">
+                                    <img src={img5} alt="ok" />
+                                </div>
+                            </Col>
 
-                        <Col md={6} lg={4} sm={12}>
-                        <div className="main-img-project">
-                            <img src={img6} alt="ok" />
-                        </div>
-                        </Col>
+                            <Col md={6} lg={4} sm={12}>
+                                <div className="main-img-project">
+                                    <img src={img6} alt="ok" />
+                                </div>
+                            </Col>
 
-                        <Col md={6} lg={4} sm={12}>
-                        <div className="main-img-project">
-                            <img src={img7} alt="ok" />
-                        </div>
-                        </Col>
+                            <Col md={6} lg={4} sm={12}>
+                                <div className="main-img-project">
+                                    <img src={img7} alt="ok" />
+                                </div>
+                            </Col>
 
-                        <Col md={6} lg={4} sm={12}>
-                        <div className="main-img-project">
-                            <img src={ img8} alt="ok" />
-                        </div>
-                        </Col>
+                            <Col md={6} lg={4} sm={12}>
+                                <div className="main-img-project">
+                                    <img src={img8} alt="ok" />
+                                </div>
+                            </Col>
 
-                        <Col md={6} lg={4} sm={12}>
-                        <div className="main-img-project">
-                            <img src={img9} alt="ok" />
-                        </div>
-                        </Col>
-                    </Row>
-                </div>
+                            <Col md={6} lg={4} sm={12}>
+                                <div className="main-img-project">
+                                    <img src={img9} alt="ok" />
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
 
-            </Container>
-        </section>
+                </Container>
+            </section>
 
-        {/* section-2 */}
-         <section className="section-frompart">
+            {/* section-2 */}
+            <section className="section-frompart">
                 <Container fluid>
                     <div className="row-main-frompart">
                         <Row>
-                            <Col md={12} lg={6}  sm={12} col={12}>
+                            <Col md={12} lg={6} sm={12} col={12}>
                                 <div className="form-question-part">
                                     <div className="main-heading-fq">
                                         <h2>Frequently Asked Questions</h2>
@@ -210,7 +210,7 @@ function Banner(){
                                             <Collapse in={open2}>
                                                 <div className="tabs-main-sec" id="example-collapse-text">
                                                     <p>
-                                                       Yes — our Projects Gallery showcases a wide range of installations across South India and beyond. From elegant corner sliders to expansive façade glazing, see how Schon systems transform real spaces.
+                                                        Yes — our Projects Gallery showcases a wide range of installations across South India and beyond. From elegant corner sliders to expansive façade glazing, see how Schon systems transform real spaces.
                                                     </p>
 
                                                     {/* Cross Close Button inside collapse */}
@@ -264,7 +264,7 @@ function Banner(){
                                             <Collapse in={open4}>
                                                 <div className="tabs-main-sec" id="example-collapse-text">
                                                     <p>
-                                                       Definitely! Whether you’re building your dream villa or renovating an apartment, our solutions scale to your vision — ensuring the same level of design detailing and premium finish that builders and architects trust.
+                                                        Definitely! Whether you’re building your dream villa or renovating an apartment, our solutions scale to your vision — ensuring the same level of design detailing and premium finish that builders and architects trust.
                                                     </p>
 
                                                     {/* Cross Close Button inside collapse */}
@@ -321,121 +321,116 @@ function Banner(){
 
 
                             </Col>
-
-
                         </Row>
                     </div>
-
-
                 </Container>
-
             </section>
 
             {/* Section-3 */}
-             <section className="testmonial-part">
-      <Container>
-        <div className="testmonial-heading">
-          <h2>Built on Trust. Chosen by Experts</h2>
-        </div>
+            <section className="testmonial-part">
+                <Container>
+                    <div className="testmonial-heading">
+                        <h2>Built on Trust. Chosen by Experts</h2>
+                    </div>
 
-        {/* ✅ Swiper Section */}
-        <Swiper
-          spaceBetween={30}
-          pagination={{ clickable: true }}
-        //   autoplay={{
-         
-        //     delay: 2500,
-        //     disableOnInteraction: false,
-        //   }}
-          breakpoints={{
-            0: {
-              slidesPerView: 1,
-            },
-            768: {
-              slidesPerView: 2,
-            },
-            1100: {
-              slidesPerView: 2,
-            },
-             1200: {
-              slidesPerView: 3,
-            },
-          }}
-        //   modules={[Pagination, Autoplay]}
-          className="mySwiper"
-        >
-          {/* Slide 1 */}
-          <SwiperSlide>
-            <div className="main-sec-testM">
-              <div className="test-monial-icon">
-                <img src={Testicon} alt="ok" />
-              </div>
-              <div className="test-monial-para">
-                <p>
-                  What sets Schon apart is their understanding of architectural
-                  vision. I needed custom aluminium systems for a minimalist.
-                  
-                </p>
-              </div>
-              <hr />
-              <div className="test-monial-block">
-                <img className="test-img" src={Coursal} alt="ok" />
-                <div className="test-cont">
-                  <h3>Nikhil Shetty</h3>
-                  <span>Principal Architect</span>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
+                    {/* ✅ Swiper Section */}
+                    <Swiper
+                        spaceBetween={30}
+                        pagination={{ clickable: true }}
+                        //   autoplay={{
 
-          {/* Slide 2 */}
-          <SwiperSlide>
-            <div className="main-sec-testM">
-              <div className="test-monial-icon">
-                <img src={Testicon} alt="ok" />
-              </div>
-              <div className="test-monial-para">
-                <p>
-                  Schon’s team brings creativity and precision together. Their
-                  quality craftsmanship is unmatched in the industry.
-                </p>
-              </div>
-              <hr />
-              <div className="test-monial-block">
-                <img className="test-img" src={Coursal2} alt="ok" />
-                <div className="test-cont">
-                  <h3>Anitha Rao</h3>
-                  <span>Homeowner</span>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
+                        //     delay: 2500,
+                        //     disableOnInteraction: false,
+                        //   }}
+                        breakpoints={{
+                            0: {
+                                slidesPerView: 1,
+                            },
+                            768: {
+                                slidesPerView: 2,
+                            },
+                            1100: {
+                                slidesPerView: 2,
+                            },
+                            1200: {
+                                slidesPerView: 3,
+                            },
+                        }}
+                        //   modules={[Pagination, Autoplay]}
+                        className="mySwiper"
+                    >
+                        {/* Slide 1 */}
+                        <SwiperSlide>
+                            <div className="main-sec-testM">
+                                <div className="test-monial-icon">
+                                    <img src={Testicon} alt="ok" />
+                                </div>
+                                <div className="test-monial-para">
+                                    <p>
+                                        What sets Schon apart is their understanding of architectural
+                                        vision. I needed custom aluminium systems for a minimalist.
 
-          {/* Slide 3 */}
-          <SwiperSlide>
-            <div className="main-sec-testM">
-              <div className="test-monial-icon">
-                <img src={Testicon} alt="ok" />
-              </div>
-              <div className="test-monial-para">
-                <p>
-                  Schon turned our vision into reality with top-tier designs and
-                  flawless finishing. Highly recommended!
-                </p>
-              </div>
-              <hr />
-              <div className="test-monial-block">
-                <img className="test-img" src={Coursal1} alt="ok" />
-                <div className="test-cont">
-                  <h3>Karan Mehta</h3>
-                  <span>Director</span>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-        </Swiper>
-      </Container>
-    </section>
+                                    </p>
+                                </div>
+                                <hr />
+                                <div className="test-monial-block">
+                                    <img className="test-img" src={Coursal} alt="ok" />
+                                    <div className="test-cont">
+                                        <h3>Nikhil Shetty</h3>
+                                        <span>Principal Architect</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+
+                        {/* Slide 2 */}
+                        <SwiperSlide>
+                            <div className="main-sec-testM">
+                                <div className="test-monial-icon">
+                                    <img src={Testicon} alt="ok" />
+                                </div>
+                                <div className="test-monial-para">
+                                    <p>
+                                        Schon’s team brings creativity and precision together. Their
+                                        quality craftsmanship is unmatched in the industry.
+                                    </p>
+                                </div>
+                                <hr />
+                                <div className="test-monial-block">
+                                    <img className="test-img" src={Coursal2} alt="ok" />
+                                    <div className="test-cont">
+                                        <h3>Anitha Rao</h3>
+                                        <span>Homeowner</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+
+                        {/* Slide 3 */}
+                        <SwiperSlide>
+                            <div className="main-sec-testM">
+                                <div className="test-monial-icon">
+                                    <img src={Testicon} alt="ok" />
+                                </div>
+                                <div className="test-monial-para">
+                                    <p>
+                                        Schon turned our vision into reality with top-tier designs and
+                                        flawless finishing. Highly recommended!
+                                    </p>
+                                </div>
+                                <hr />
+                                <div className="test-monial-block">
+                                    <img className="test-img" src={Coursal1} alt="ok" />
+                                    <div className="test-cont">
+                                        <h3>Karan Mehta</h3>
+                                        <span>Director</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                    </Swiper>
+                </Container>
+            </section>
 
         </>
     )
