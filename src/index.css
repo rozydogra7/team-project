@@ -1081,6 +1081,10 @@ button.form-btn-secmain.btn.btn-primary {
 .testmonial-heading h2 {
     font-size: 19px;
 }
+section.testmonial-part {
+    /* padding-top: 80px; */
+    padding: 35px 30px;
+}
 }
 
 
