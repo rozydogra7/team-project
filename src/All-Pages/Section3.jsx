@@ -44,6 +44,9 @@ function Testmonial(){
             1100: {
               slidesPerView: 2,
             },
+             1200: {
+              slidesPerView: 3,
+            },
           }}
         //   modules={[Pagination, Autoplay]}
           className="mySwiper"

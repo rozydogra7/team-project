@@ -1075,8 +1075,11 @@ button.form-btn-secmain.btn.btn-primary {
 .main-banner {
     padding-top: 48%;
 }
-.contact-form ::placeholder{
-
+.testmonial-heading {
+    padding-bottom: 30px;
+}
+.testmonial-heading h2 {
+    font-size: 19px;
 }
 }
 
