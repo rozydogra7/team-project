@@ -396,8 +396,9 @@ button.Logo-btn-3.btn.btn-primary:hover{
     background: #fafbfe;
         padding: 30px;
 }
-section.Testmonial-part {
-    padding-top: 80px;
+section.testmonial-part {
+    /* padding-top: 80px; */
+    padding: 100px 80px;
 }
 /* footer-part */
 .footer-part{
@@ -1034,6 +1035,9 @@ button.Logo-btn-3.btn.btn-primary {
 }
 .testmonial-heading {
     padding-bottom: 6px;
+}
+.testmonial-part{
+  padding: 40px 20px;
 }
 .test-img {
     width: 77px;
