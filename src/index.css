@@ -193,7 +193,7 @@ nav.mb-3.Navbar-main-sec.navbar.navbar-light {
 
 /* formsection-part */
 .section-frompart {
-  background-image: url("public/background-project-3.jpg");
+  background-image: url("../public/background-project-3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -989,7 +989,7 @@ button.form-btn-secmain.btn.btn-primary {
     padding: 6px 10px;
 }
 .form-title {
-    font-size: 17px;
+    font-size: 25px;
 }
 .contact-form input, .contact-form textarea { 
     padding: 5px;
@@ -1031,10 +1031,7 @@ button.Logo-btn-3.btn.btn-primary {
     width: 77px;
     height: 66px;
 }
-button.Logo-btn-4.btn.btn-primary {
 
-    font-size: 17px;
-}
 .navbar .container {
  
     padding: 8px;
@@ -1051,6 +1048,20 @@ button.Logo-btn-4.btn.btn-primary {
 }
 .row-main-sec1 {
     padding: 10px;
+}
+.section-frompart {
+    padding: 4px;
+}
+.main-heading-fq h2 {
+    font-size: 32px;
+    padding-top: 50px;
+    text-align: center;
+}
+button.form-btn-secmain.btn.btn-primary {
+    font-size: 18px;
+}
+.contact-form input ::placeholder{
+  font-size: 12px;
 }
 }
 
