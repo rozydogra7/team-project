@@ -201,8 +201,8 @@ function ContactForm() {
 
                                         <form>
                                             <input type="text" placeholder="Full Name*" required />
-                                            <input type="email" placeholder="Email Address*" required />
-                                            <input type="tel" placeholder="Contact No.*" required />
+                                            <input type="text" placeholder="Email Address*" required />
+                                            <input type="text" placeholder="Contact No.*" required />
                                             <textarea placeholder="Message"></textarea>
                                             <div className="btn-from"><Button className='Logo-btn-3'>Get in Touch<span><i class="fa-solid fa-arrow-right"></i></span></Button></div>
                                         </form>

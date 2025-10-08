@@ -68,7 +68,7 @@ if (window.scrollY > triggerPoint) {
 
         {/* Center Logo */}
         <div className="img-center">
-          <img style={{height: isScrolled ? "60px" : "80px",transition: ".3s ease"}} src={logo} alt="ok" />
+          <img src={logo} alt="ok" />
         </div>
 
         {/* Right Button */}

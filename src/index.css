@@ -47,6 +47,11 @@ nav.mb-3.Navbar-main-sec.navbar.navbar-light {
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+.img-center img{
+  height:  60px;
+  transition: .3s ease;
+}
+
 
 
 div#offcanvasNavbar {
@@ -921,7 +926,10 @@ section.Testmonial-part {
     align-items: center;
     padding: 8px 12px;
   }
-
+  .img-center img {
+    height: 50px !important;
+    transition: 0.3s;
+}
   /* Hide the main button completely */
   button.Logo-btn.btn.btn-primary {
     display: none;
@@ -991,15 +999,15 @@ button.form-btn-secmain.btn.btn-primary {
 .form-title {
     font-size: 25px;
 }
-.contact-form input, .contact-form textarea { 
-    padding: 5px;
+.contact-form input, .contact-form textarea {
+    padding: 16px;
     font-size: 16px;
 }
 
 button.Logo-btn-3.btn.btn-primary {
     width: 67%;
-    padding: 6px 5px;
-    font-size: 14px;
+    padding: 11px 0px;
+    font-size: 19px;
 }
 .testmonial-heading h2 {
     font-size: 30px;
@@ -1060,11 +1068,11 @@ button.Logo-btn-3.btn.btn-primary {
 button.form-btn-secmain.btn.btn-primary {
     font-size: 18px;
 }
-.contact-form input ::placeholder{
-  font-size: 12px;
-}
 .main-banner {
     padding-top: 48%;
+}
+.contact-form ::placeholder{
+
 }
 }
 
